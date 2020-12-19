@@ -1,0 +1,17 @@
+//global styles and changing bulma variables
+//import a google fonts
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+$family-sans-serif:'Nunito',sans-serif;
+$input-border-color:transparent;
+$input-shadow:none;
+
+/* GLOBAL STYLES*/
+html,body{
+    height:100%;
+}
+html{
+    background-image: url('./assets/images/background.jpg');
+    background-size:cover;
+    overflow-y:auto !important;
+}
